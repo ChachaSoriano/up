@@ -47,6 +47,7 @@
 				<div class="ui-btn ui-icon-lock ui-btn-icon-left"><span class="inline"></span><input type="password" class="txt" id="password" placeholder="Enter your Password" data-theme="g">
 				</div>
 				<button id="login" data-theme="a">Login</button>
+				<a href="../index.html" data-role="button" id="index" data-theme="a">Home</a>
 		
 				</div>
 		</div>
