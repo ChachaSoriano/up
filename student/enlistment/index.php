@@ -9,7 +9,7 @@
 		mysql_query("update rstudents set status='0' where student='".$_SESSION['student']."'");
 	}
 	if(student($_SESSION['student'],"status")!="0"){
-		header("Location: ../summary");
+		header("Location: ../grades");
 	}
 ?>
 <!DOCTYPE html>
@@ -98,10 +98,10 @@
 
 	<div class="head">
 		<div class="wraper">
-			<div class="head-logo" ></div>
+			<div class="head-logo"></div>
 			<div class="head-label">
-				<div class="center" style="font-size:18px">GORDON COLLEGE</div>
-				<div class="center" style="font-size:15px">COLLEGE OF EDUCATION, ARTS AND SCIENCES</div>
+				<div class="center" style="font-size:18px">COLLEGE OF COMPUTER STUDIES</div>
+				<div class="center" style="font-size:15px">COURSE ENLISTMENT</div>
 			</div>
 			<div class="menu">
 				<ul>
